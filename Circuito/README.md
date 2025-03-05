@@ -105,6 +105,9 @@ El circuito funciona de la siguiente manera:
    - El ESP32 permite actualizaciones de firmware de forma remota mediante OTA.
 5. **Manejo de Pulsadores**:
    - El estado de los pulsadores se publica en MQTT para su monitoreo remoto.
+  
+  ![freidora 1](https://github.com/user-attachments/assets/4c61de40-89df-4bec-ac40-0ca14c49c585)
+
 
 ---
 
