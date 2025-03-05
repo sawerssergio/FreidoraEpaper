@@ -168,13 +168,13 @@ A continuación, se presenta un resumen de los comandos MQTT utilizados en el c�
 - **Formato**: `display/<número_área>`
 - **Valores**: Cualquier texto que se desee mostrar en el área correspondiente.
 - **Áreas**:
-  - `1`: Área grande (fuente grande, para temperatura).
+  - `1`: Área grande (fuente grande, para numero de freidora).
   - `2`: Área de mensajes (fuente mediana).
   - `3`: Área de estado de IP (fuente pequeña).
   - `4`: Área de estado de MQTT (fuente pequeña).
   - `5`: Área de estado de WiFi (fuente pequeña).
 - **Ejemplos**:
-  - `display/1 25.5°C`: Muestra "25.5°C" en el área 1.
+  - `display/1 25.5°C`: Muestra "10" en el área 1 es ideal que solo sea nuemrico.
   - `display/2 MENSAJE OK`: Muestra "MENSAJE OK" en el área 2.
 
 ---
