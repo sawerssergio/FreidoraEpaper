@@ -224,12 +224,12 @@ A continuación, se presenta un resumen de los comandos MQTT utilizados en el c�
 | **Topic**       | **Descripción**                          | **Valores**       | **Ejemplo**              |
 |------------------|------------------------------------------|-------------------|--------------------------|
 | `relay/#`        | Control de relés                        | `ON`, `OFF`       | `relay/0 ON`             |
-| `display/#`      | Actualización de áreas de la pantalla    | Texto             | `display/1 25.5°C`       |
+| `display/#`      | Actualización de áreas de la pantalla    | Texto             | `display/1 5`       |
 | `reset`          | Reinicia el dispositivo                 | `ON`              | `reset ON`               |
 | `refresh`        | Redibuja la pantalla E-paper            | `ON`              | `refresh ON`             |
 | `valvula`        | Estado del pulsador de la válvula       | `ON`, `OFF`       | `valvula ON`             |
 | `tempHot`        | Estado del pulsador de temperatura      | `ON`, `OFF`       | `tempHot OFF`            |
-| `tapa`           | Estado del pulsador de la tapa          | `ON`, `OFF`       | `tapa ON`                |
+| `tapa`           | Estado del pulsador de la tapa          | `ON`, `OFF`       | `tapa ON`  "Disable"              |
 | `temperatura`    | Publica la temperatura medida           | Valor numérico    | `temperatura 25.5`       |
 
 ---
