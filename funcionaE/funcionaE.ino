@@ -7,7 +7,7 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Adafruit_MAX31865.h>
-#include <SPI.h>
+#include <Adafruit_MAX31865.h>
 #include <GxEPD2_BW.h>
 #include <Fonts/FreeMonoBold12pt7b.h>
 #include <Fonts/FreeMonoBold16pt7b.h>
