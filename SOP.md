@@ -1,7 +1,7 @@
 # Guía de Instalación Paso a Paso para el Código E-paper con MQTT y OTA
 
-## Requisitos Previos
-1. **Hardware necesario**:
+## Requisitos Previos PCB FREIDORAS V1.1 
+1. **Hardware necesario**: (omitir)
    - Placa ESP32 (recomendado AWK-3131)
    - Pantalla E-paper de 7.5" compatible con GxEPD2
    - Módulo MAX31865 para lectura de temperatura
@@ -9,7 +9,7 @@
    - 3 pulsadores
    - Fuente de alimentación adecuada
 
-2. **Software necesario**:
+2. **Software necesario**: (Nesesario)
    - Arduino IDE (última versión)
    - ESP32 board package instalado en Arduino IDE
    - Las siguientes librerías (instalables via Library Manager):
@@ -49,7 +49,7 @@
 3. Crea una subcarpeta llamada `data` dentro de la carpeta del proyecto
 4. En la carpeta `data`, añade el archivo `logo.h` que contiene el bitmap para el logo
 
-## Paso 4: Conexión del Hardware
+## Paso 4: Conexión del Hardware (Omitir)
 
 Conecta los componentes según esta tabla:
 
