@@ -19,6 +19,7 @@
      - GxEPD2
      - Adafruit GFX Library
      - Preferences
+   - Instal driver CP2102para comunicacion serial
 
 ## Paso 1: Instalación del Entorno de Desarrollo
 
