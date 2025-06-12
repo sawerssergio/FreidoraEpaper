@@ -1,0 +1,20 @@
+{
+    "broker": "172.19.32.206",
+    "port": 1883,
+    "username": "villa",
+    "password": "sawers",
+    "topics": {
+        "temperature": "temperatura",
+        "relays": "relay/#",
+        "display": "display/#",
+        "inputs": [
+            "valvula",
+            "tempHot",
+            "tapa"
+        ],
+        "commands": [
+            "reset",
+            "refresh"
+        ]
+    }
+}
