@@ -7,7 +7,6 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Adafruit_MAX31865.h>
-#include <Adafruit_MAX31865.h>
 #include <GxEPD2_BW.h>
 #include <Fonts/FreeMonoBold12pt7b.h>
 #include <Fonts/FreeMonoBold16pt7b.h>
@@ -41,15 +40,18 @@ Adafruit_MAX31865 thermo(RTD_CS, RTD_MOSI, RTD_MISO, RTD_CLK);
 // =================================================================
 
 // Configuración WiFi/MQTT
-const char* ssid = "vip";
-const char* password = "60771800";
-const char* mqtt_server = "172.19.32.223";
-const char* mqtt_user = "velarde";
-const char* mqtt_password = "1234";
+const char* ssid = "iPhone de Sergio";
+const char* password = "sawers88";
+const char* mqtt_server = "200.58.77.84";
+const char* mqtt_user = "villa";
+const char* mqtt_password = "sawers";
 
-IPAddress local_IP(172, 19, 32, 200);
-IPAddress gateway(172, 19, 32, 1);
+IPAddress local_IP(172, 20, 10, 5);
+IPAddress gateway(172, 20, 10, 1);
 IPAddress subnet(255, 255, 255, 0);
+IPAddress primaryDNS(172, 20, 10, 1);
+IPAddress secondaryDNS(8, 8, 4, 4);
+
 
 // Configuración E-Paper
 #define EPD_CLK   14
@@ -163,7 +165,7 @@ void dibujarPantallaCompleta() {
 //                 CONECTIVIDAD
 // =================================================================
 void conectarWiFi() {
-  if (!WiFi.config(local_IP, gateway, subnet)) {
+  if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
     actualizarArea("ERROR IP", 3);
   }
 
